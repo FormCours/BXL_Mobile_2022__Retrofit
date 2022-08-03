@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">MiguelRetrofit</string>
+    <string name="result_api_placeholder">Result here !</string>
+    <string name="btn_call_api">Call API</string>
+</resources>
