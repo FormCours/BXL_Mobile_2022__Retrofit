@@ -1,4 +1,4 @@
-package be.formation.mobile.demo.miguelretrofit.sercices.requesters.api;
+package be.formation.mobile.demo.miguelretrofit.services.requesters.api;
 
 import java.util.List;
 

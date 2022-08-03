@@ -1,4 +1,4 @@
-package be.formation.mobile.demo.miguelretrofit.sercices.requesters;
+package be.formation.mobile.demo.miguelretrofit.services.requesters;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -11,7 +11,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import be.formation.mobile.demo.miguelretrofit.models.DictionaryResult;
-import be.formation.mobile.demo.miguelretrofit.sercices.requesters.api.DictionaryApiService;
+import be.formation.mobile.demo.miguelretrofit.services.requesters.api.DictionaryApiService;
 import retrofit2.Call;
 import retrofit2.Response;
 import retrofit2.Retrofit;

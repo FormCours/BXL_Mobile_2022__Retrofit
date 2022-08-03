@@ -3,23 +3,13 @@ package be.formation.mobile.demo.miguelretrofit;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.os.StrictMode;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.io.IOException;
-import java.util.List;
-
 import be.formation.mobile.demo.miguelretrofit.models.DictionaryResult;
 import be.formation.mobile.demo.miguelretrofit.models.Meaning;
-import be.formation.mobile.demo.miguelretrofit.sercices.requesters.DictonaryRequester;
-import be.formation.mobile.demo.miguelretrofit.sercices.requesters.api.DictionaryApiService;
-import retrofit2.Call;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+import be.formation.mobile.demo.miguelretrofit.services.requesters.DictonaryRequester;
 
 public class MainActivity extends AppCompatActivity {
 
